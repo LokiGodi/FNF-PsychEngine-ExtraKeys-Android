@@ -3663,7 +3663,7 @@ class PlayState extends MusicBeatState
 							//notesDatas.push(daNote.noteData);
 						}
 						if (!ClientPrefs.noAntimash) {	//shut up
-							canMiss = true;
+							canMiss = false;
 						}
 					}
 				});
